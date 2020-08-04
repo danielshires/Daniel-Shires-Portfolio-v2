@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2560px" height="1627px" viewBox="0 0 2560 1627" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 35</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="14.128484%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#333333" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="0 0 2560 0 2560 1627 0 1626.84234"></polygon>
+        <pattern id="pattern-3" width="8" height="8" x="-8" y="-8" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-4"></use>
+        </pattern>
+        <image id="image-4" width="8" height="8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABGdBTUEAALGPC/xhBQAAAYJpQ0NQSUNDIFByb2ZpbGUAACiRlZE/SMNAFMa/VKQO9c9QRJwCSqcqpYIoiNBmEKFDLR1UdMi/poWahDRWRUdBx4KD6KLYxcFZ14KrTooiiJODe9FFS3zJVVMRFT847nfv3t279x0QOBZNsxjoAZZ028pMJfnZuXk++IgOcPAkyiUzkU6nXP6Yv+rlhuVeDbl3fd//VSFFLckAFya2ZdOyibeJB1Zs0+UT4rBFjyKuuawxvnZZYvzk5WQzAvEbcVdZ1uhsIEQc05WCTjxBPCnnRYV4gzgqteRrLcze46lfEIsFyRJtVeFdawSjaFglU5TVfzb5l2x11XZnwTDXrIKWt/kEOany07o8HOXjsXgMcP+FZddnPL+53gs/ZhwCY89AW8WPSbvA2RbQd+fHBg+A7k3g9FxetsrN8hyoOvOsueY+CT8x89XTKFC9BbLrQOoS2NsHIjmqswCkOyk+Th0u+oOplBuJs7tCSaD9wXHqESC4AzQqjvN65DiNKvVzD9T0d/tLb4DpM+kiAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAAIoAMABAAAAAEAAAAIAAAAALZMWWgAAAAXSURBVBgZY2BgYPgPxUAKEzBhCg1HEQAE8AIBRiFxDgAAAABJRU5ErkJggg=="></image>
+        <linearGradient x1="100%" y1="100%" x2="-26.0158632%" y2="-39.2973635%" id="linearGradient-5">
+            <stop stop-color="#FF00E0" offset="0%"></stop>
+            <stop stop-color="#FF00DD" offset="0%"></stop>
+            <stop stop-color="#FF0029" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="86.4800347%" y1="100%" x2="-5.46122657%" y2="-39.2973635%" id="linearGradient-6">
+            <stop stop-color="#FF00E0" offset="0%"></stop>
+            <stop stop-color="#FF00DD" offset="0%"></stop>
+            <stop stop-color="#FF0029" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="85.7988166%" y1="100%" x2="-4.42555885%" y2="-39.2973635%" id="linearGradient-7">
+            <stop stop-color="#FF00E0" offset="0%"></stop>
+            <stop stop-color="#FF00DD" offset="0%"></stop>
+            <stop stop-color="#FF0029" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="v1-Final-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-35">
+            <g id="Background">
+                <use fill="url(#pattern-3)" xlink:href="#path-2"></use>
+                <use fill="#FFFFFF" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
+                <use fill="#00254F" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
+            </g>
+            <path d="M707,1255.86955 C707,1322.69543 652.82588,1376.86955 586,1376.86955 C519.17412,1376.86955 465,1322.69543 465,1255.86955 C465,1189.04367 519.17412,1134.86955 586,1134.86955 C652.82588,1134.86955 707,1189.04367 707,1255.86955 Z" id="Stroke-1" stroke="url(#linearGradient-5)" opacity="0.5"></path>
+            <path d="M2250,356.869546 C2250,402.156506 2213.28696,438.869546 2168,438.869546 C2122.71304,438.869546 2086,402.156506 2086,356.869546 C2086,311.582586 2122.71304,274.869546 2168,274.869546 C2213.28696,274.869546 2250,311.582586 2250,356.869546 Z" id="Stroke-1" stroke="url(#linearGradient-5)" opacity="0.5"></path>
+            <polygon id="Stroke-3" stroke="url(#linearGradient-6)" opacity="0.5" points="2319 1035.86955 2360.00077 1061.61174 2401 1087.3548 2362.0336 1109.61261 2323.06875 1131.86955 2321.03437 1083.86955"></polygon>
+            <polygon id="Stroke-3" stroke="url(#linearGradient-6)" opacity="0.5" points="2318 703.869546 2315.96713 751.869985 2313.93271 799.869546 2274.96559 777.611939 2236 755.35521 2277 729.612378"></polygon>
+            <polygon id="Stroke-3" stroke="url(#linearGradient-7)" opacity="0.5" points="363.594695 633.869546 373.299516 763.870467 383 893.869546 272.997831 847.19901 163 800.530315 263.297347 717.199931"></polygon>
+            <rect id="Rectangle" stroke="url(#linearGradient-5)" opacity="0.600000024" transform="translate(2056.000000, 1226.869546) rotate(-330.000000) translate(-2056.000000, -1226.869546) " x="1974.5" y="1145.36955" width="163" height="163"></rect>
+            <rect id="Rectangle" stroke="url(#linearGradient-5)" opacity="0.600000024" transform="translate(432.000000, 357.000000) rotate(-30.000000) translate(-432.000000, -357.000000) " x="386.5" y="311.5" width="91" height="91"></rect>
+        </g>
+    </g>
+</svg>

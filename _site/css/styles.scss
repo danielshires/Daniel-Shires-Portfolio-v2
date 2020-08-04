@@ -1,0 +1,872 @@
+@import "../_sass/boostrap";
+
+@font-face {
+    font-family: "Circular Book";
+    src: url("../resources/fonts/CircularStd-Book.woff") format("woff"),
+}
+
+@font-face {
+    font-family: "Circular Bold";
+    src: url("../resources/fonts/CircularStd-Bold.woff") format("woff"),
+}
+
+@font-face {
+    font-family: "Circular Medium";
+    src: url("../resources/fonts/CircularStd-Medium.woff") format("woff"),
+}
+
+// Mixins
+// Typography
+
+$primary-font-book: "Circular Book",
+Arial,
+Helvetica,
+sans-serif;
+$primary-font-bold: "Circular Bold",
+Arial,
+Helvetica,
+sans-serif;
+
+$primary-font-medium: "Circular Medium",
+Arial,
+Helvetica,
+sans-serif;
+
+
+// Breakpoints
+
+/* set the overriding variables */
+$grid-breakpoints: (xxxs: 0,
+    xxs: 376px,
+    xs: 568px,
+    sm: 667px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1440px,
+    xxxl: 1600px);
+$container-max-widths: (xxxs: 0,
+    xxs: 376px, f xs: 568px,
+    sm: 667px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1440px,
+    xxxl: 1600px);
+
+// Colors
+
+$primary-color: #00254F;
+$primary-text-color: #0F1317;
+$primary-gradient: linear-gradient(to right, #FF00E0 0%, #FF0029 100%);
+$primary-pink: #FF00E0;
+$primar-red: #FF0029;
+
+// Mixins
+
+@mixin primary-gradient {
+    background-image: -moz-linear-gradient(to right, #FF00E0 0%, #FF0029 100%);
+    /* FF3.6+ */
+    background-image: -webkit-linear-gradient(to right, #FF00E0 0%, #FF0029 100%);
+    /* Chrome,Safari4+ */
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background-image: -o-linear-gradient(to right, #FF00E0 0%, #FF0029 100%);
+    /* Opera 11.10+ */
+    background-image: -ms-linear-gradient(to right, #FF00E0 0%, #FF0029 100%);
+    /* IE10+ */
+    background-image: linear-gradient(to right, #FF00E0 0%, #FF0029 100%);
+    /* W3C */
+}
+
+
+
+// Sizing
+
+$testimonial-img-size-mobile: 150px;
+$testimonial-img-size-md: 200px;
+$testimonial-img-size-lg: 225px;
+$testimonial-img-size-lg: 250px;
+
+
+// Animate
+
+.delay-1 {
+    animation-delay: .25s;
+}
+
+.delay-2 {
+    animation-delay: .5s;
+}
+
+.delay-3 {
+    animation-delay: .75s;
+}
+
+.delay-4 {
+    animation-delay: 1s;
+}
+
+.delay-5 {
+    animation-delay: 1.25s;
+}
+
+// GSAP
+
+.loader {
+    position: fixed;
+    width: 100vw;
+    height: 200vh;
+    pointer-events: none;
+    background-color: $primary-color;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+// Typography
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: -webkit-fill-available;
+}
+
+body {
+    font-family: $primary-font-book;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: rgba($primary-text-color, 1);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word;
+}
+
+
+h1 {
+
+    font-family: $primary-font-bold;
+    font-weight: bold;
+
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+
+    @include media-breakpoint-up(xxs) {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    @include media-breakpoint-up(sm) {
+        font-size: 2.75rem;
+        line-height: 3.25rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 5rem;
+        line-height: 4.5rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 4.5rem;
+        line-height: 4.75rem;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        font-size: 6rem;
+        line-height: 6.5rem;
+    }
+}
+
+h2 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-family: $primary-font-bold;
+
+    @include media-breakpoint-up(xxs) {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 2.25rem;
+        line-height: 2.75rem;
+    }
+}
+
+h3 {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: rgba($primary-text-color, 1);
+
+    @include media-breakpoint-up(xxs) {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+
+    @include media-breakpoint-up(xl) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+}
+
+h4 {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: rgba($primary-text-color, 0.5);
+
+    @include media-breakpoint-up(xxs) {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+}
+
+h5 {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    font-family: "Circular Bold";
+    color: rgba($primary-text-color, 1);
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+}
+
+h6 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    @include media-breakpoint-up(md) {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.125rem;
+        line-height: 1.625rem;
+    }
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: rgba($primary-text-color, 0.5);
+
+    @include media-breakpoint-up(lg) {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+
+}
+
+
+// Lottie
+
+#animation {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    opacity: 1;
+    transform: translateY(-3%)
+}
+
+#bg-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 1;
+    display: none;
+}
+
+// Navbar
+
+.navbar {
+    background-color: transparent;
+}
+
+
+a.navbar-brand {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    transform: translateY(0em);
+    transition: all 0.3s ease-out;
+
+    &:hover {
+
+        transition: all 0.5s ease-out;
+        background: $primary-gradient;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    &:visited {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+a.nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+
+    &:hover,
+    &:active {
+        transition: all 0.5s ease-out;
+        background: $primary-gradient;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+
+// Badges
+
+.badge-pill {
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    color: white;
+    line-height: 0;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+// Buttons
+
+button {
+    color: white;
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary {
+    width: auto;
+    padding: 1rem 3rem;
+    border: none;
+    transition: 200ms;
+    @include primary-gradient();
+
+    @include media-breakpoint-up(xxs) {
+        font-size: 1.125rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 1.25rem;
+    }
+
+    &:hover {
+        transform: translateY(-0.25rem);
+        transition: 300ms;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.35);
+        background-image: right center;
+    }
+}
+
+.btn-secondary {
+    padding: 0.75rem 2rem;
+    border: solid 1px #FF0029;
+    color: #FF0029;
+    background-color: transparent;
+    transition: 300ms;
+
+    &:hover {
+        padding: 0.75rem 2rem;
+        border: solid 1px #FF00E0;
+        color: #FF00E0;
+        background-color: transparent;
+        background-position: right center;
+        transform: translateY(-0.25rem);
+        transition: 300ms;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.35);
+    }
+}
+
+// Cards
+
+.rounded {
+    border-radius: 1rem !important;
+}
+
+.card-columns {
+
+    column-gap: 2rem;
+
+    @include media-breakpoint-up(xxs) {
+        column-count: 1;
+    }
+
+    @include media-breakpoint-up(md) {
+        column-count: 2;
+    }
+
+    @include media-breakpoint-up(lg) {
+        column-count: 2;
+    }
+}
+
+.card {
+    position: relative;
+    width: 100%;
+
+    .card-img-top-center {
+        margin: auto;
+    }
+
+    .card-img-top {
+        display: block;
+        height: auto;
+        max-width: 50%;
+    }
+}
+
+.card-shadow {
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 98%;
+        height: 96%;
+        background: $primary-gradient;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        transform: translateY(2%);
+        border-radius: 1rem;
+        z-index: -1;
+        box-shadow: 2px;
+    }
+}
+
+/* */
+
+
+// Testimonial
+
+.testimonial-text {
+
+    @include media-breakpoint-up(md) {
+        text-align: left;
+    }
+
+    h4 {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    h6 {
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.testimonial-img {
+
+    height: $testimonial-img-size-mobile;
+    width: $testimonial-img-size-mobile;
+    margin: auto;
+
+    @include media-breakpoint-up(md) {
+        height: $testimonial-img-size-md;
+        width: $testimonial-img-size-md;
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: $testimonial-img-size-lg;
+        width: $testimonial-img-size-lg;
+    }
+
+    &:hover::before {
+        transform: translateY(0%);
+        transition: transform 0.2s;
+        cursor: pointer;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        height: $testimonial-img-size-mobile;
+        width: $testimonial-img-size-mobile;
+        background: $primary-gradient;
+        background-size: 100% 100%;
+        transform: translateY(5%);
+        border-radius: 50%;
+        box-shadow: 2px;
+        transition: transform 0.2s;
+        cursor: pointer;
+
+        @include media-breakpoint-up(md) {
+            height: $testimonial-img-size-md;
+            width: $testimonial-img-size-md;
+        }
+
+        @include media-breakpoint-up(lg) {
+            height: $testimonial-img-size-lg;
+            width: $testimonial-img-size-lg;
+        }
+    }
+
+
+    &::after {
+        content: '';
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-image: url(../resources/img/homepage/testimonial/Gemma.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: $testimonial-img-size-mobile;
+        width: $testimonial-img-size-mobile;
+
+        @include media-breakpoint-up(md) {
+            height: $testimonial-img-size-md;
+            width: $testimonial-img-size-md;
+        }
+
+
+        @include media-breakpoint-up(lg) {
+            height: $testimonial-img-size-lg;
+            width: $testimonial-img-size-lg;
+        }
+    }
+
+}
+
+.testimonial-img-jack {
+
+    height: $testimonial-img-size-mobile;
+    width: $testimonial-img-size-mobile;
+    margin: auto;
+
+    @include media-breakpoint-up(md) {
+        height: $testimonial-img-size-md;
+        width: $testimonial-img-size-md;
+    }
+
+    @include media-breakpoint-up(lg) {
+        height: $testimonial-img-size-lg;
+        width: $testimonial-img-size-lg;
+    }
+
+    &:hover::before {
+        transform: translateY(0%);
+        transition: transform 0.2s;
+        cursor: pointer;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        height: $testimonial-img-size-mobile;
+        width: $testimonial-img-size-mobile;
+        background: $primary-gradient;
+        background-size: 100% 100%;
+        transform: translateY(5%);
+        border-radius: 50%;
+        box-shadow: 2px;
+        transition: transform 0.2s;
+        cursor: pointer;
+
+        @include media-breakpoint-up(md) {
+            height: $testimonial-img-size-md;
+            width: $testimonial-img-size-md;
+        }
+
+        @include media-breakpoint-up(lg) {
+            height: $testimonial-img-size-lg;
+            width: $testimonial-img-size-lg;
+        }
+    }
+
+
+    &::after {
+        content: '';
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        background-image: url(../resources/img/homepage/testimonial/Jack.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        height: $testimonial-img-size-mobile;
+        width: $testimonial-img-size-mobile;
+
+        @include media-breakpoint-up(md) {
+            height: $testimonial-img-size-md;
+            width: $testimonial-img-size-md;
+        }
+
+
+        @include media-breakpoint-up(lg) {
+            height: $testimonial-img-size-lg;
+            width: $testimonial-img-size-lg;
+        }
+    }
+
+}
+
+
+.portfolio-card {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .10), 0 0 6px rgba(0, 0, 0, .06);
+    transition: .5s transform cubic-bezier(.155, 1.105, .295, 1.12), .2s box-shadow, .5s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+    transform: scale(1);
+
+    // Safari hover state hack
+
+    @include media-breakpoint-up(lg) {
+        margin: 5%;
+    }
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .20), 0 4px 8px rgba(0, 0, 0, .12);
+        transform: scale(1.02);
+        transition: .5s;
+    }
+
+    h6 {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    h4 {
+        font-family: $primary-font-bold;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    span {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+
+// Sections ––——————————————————————————————————————————————————————
+
+.section {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    @include media-breakpoint-up(md) {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+}
+
+.background-image {
+    background-image: url(../resources/img/homepage/homepage-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.background-image-testimonial {
+    background-image: url(../resources/img/homepage/homepage-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+// Hero Section
+
+.hero {
+    height: 90vh;
+    width: 100%;
+    color: white;
+
+    @include media-breakpoint-up(md) {
+        height: 100vh;
+    }
+
+    h1 {
+        background: $primary-gradient;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        span {
+            background: -webkit-linear-gradient(#fff, #FFf);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    h3 {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    h5 {
+        margin-bottom: 1rem;
+
+    }
+
+    .hero-text-p {
+        margin: 1.5rem auto 2.5rem auto;
+    }
+
+    .hero-cta {
+        position: absolute;
+        bottom: 10%;
+        width: 100%;
+        margin: auto;
+
+        @include media-breakpoint-up(md) {
+            bottom: 10%;
+        }
+
+
+        @include media-breakpoint-up(lg) {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+
+    .hero-links {
+        a {
+            color: white;
+            font-size: 1rem;
+            line-height: 1.4rem;
+
+            @include media-breakpoint-up(xxs) {
+                font-size: 1.125rem;
+            }
+
+            @include media-breakpoint-up(md) {
+                font-size: 1.25rem;
+            }
+
+        }
+    }
+}
+
+
+// Work History
+
+
+h6.job-year {
+    background: $primary-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h4.job-title {
+
+    font-family: $primary-font-medium;
+    color: $primary-text-color;
+
+    span {
+        color: $primary-gradient;
+        opacity: 0.5;
+    }
+}
+
+// Call to action
+
+
+a.call-to-action {
+    background: $primary-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration-color: #FF00E0;
+    color: #FF00E0;
+    text-decoration: none;
+    color: $primary-text-color;
+
+    &:hover {
+        border-bottom: 1px solid #FF00E0;
+    }
+
+}

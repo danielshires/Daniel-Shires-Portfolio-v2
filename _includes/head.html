@@ -1,0 +1,48 @@
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169203427-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+  
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+  
+      gtag('config', 'UA-169203427-1');
+    </script>
+  
+    <!-- Title -->
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <!-- Meta -->
+    <meta name="description" content="Daniel Shires – Digital & Print Design">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.danielshires.com">
+    <meta property="og:title" content="Daniel Shires – Digital & Print Design">
+    <meta property="og:description" content="Portfolio of Daniel Shires, Sydney-based digital and Print designer.">
+    <meta property="og:image" content="resources/favicon/open-graph.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@danielshires">
+    <meta name="twitter:title" content="Daniel Shires – Digital & Print Design">
+    <meta name="twitter:description" content="Portfolio of Daniel Shires, Sydney-based digital and print designer.">
+    <meta name="twitter:image" content="assets/favicon/open-graph.jpg">
+    <meta name="twitter:creator" content="@rdbok">
+    <!-- Links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  
+  </head>
