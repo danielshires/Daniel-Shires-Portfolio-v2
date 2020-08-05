@@ -1,5 +1,6 @@
 ---
 title: Daniel Shires – Design Portfolio
+description: The design portfolio of Daniel Shires – Digital designer and Web Developer freelancer in Sydney.
 layout: homepage.html
 ---
 
@@ -12,14 +13,15 @@ layout: homepage.html
   <div data-barba="wrapper">
     {% include header.html %}
     {% include loader.html %}
+    <div class="background-image"></div>
 
     <main data-barba="container">
 
       <!-- Hero Section -->
       <section id="hero"
-        class="container-fluid justify-content-center align-items-center d-flex hero position-relative background-image">
+        class="container-fluid justify-content-center align-items-center d-flex hero position-relative">
         <!-- Hero Text -->
-        <div class="row d-flex justify-content-center hero-text mb-5 mb-lg-0 mt-0 mt-xl-5 hero-animation">
+        <div class="row d-flex justify-content-center hero-text mb-5 hero-animation">
           <div class="col-12">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 text-center mx-auto hero-text-heading mb-2 w-100 ">
               <div class="freelance d-flex justify-content-center">
@@ -32,7 +34,7 @@ layout: homepage.html
                 style="cursor: pointer;">
                 Digital. Print. Code.<span><br />I've got you covered</span>
               </h1>
-              <h3 class="hero-text-p op-5 w-75">
+              <h3 class="hero-text-p">
                 Hey! My name’s Dan. I’m a Freelance Graphic Designer and Web
                 Developer with 5+ years of experience helping in-house teams,
                 agencies and clients deliver on their business goals.
@@ -72,7 +74,7 @@ layout: homepage.html
               <div class="card-columns p-lg-4">
                 <!-- Large -->
                 <a href="#" class="">
-                  <div class="card rounded portfolio-card text-left text-light border"
+                  <div class="card rounded portfolio-card text-left text-light borde mb-4"
                     style="background-color: #1A274A;">
                     <img class="rounded" src="./resources/img/homepage/feature-work/Maso-Fitness.jpg"
                       alt="Maso Fitness">
@@ -87,7 +89,7 @@ layout: homepage.html
 
                 <!-- Large -->
                 <a href="#" class="">
-                  <div class="card rounded portfolio-card text-left text-light border"
+                  <div class="card rounded portfolio-card text-left text-light border mb-4"
                     style="background-color: #74ADDE;">
                     <img class="rounded" src="./resources/img/homepage/feature-work/Gallahger.jpg" alt="Gallahger">
                     <div class="card-img-overlay m-xl-2 m-xxl-4">
@@ -101,7 +103,7 @@ layout: homepage.html
 
                 <!-- Small -->
                 <a href="#" target="_blank" class="">
-                  <div class="card rounded portfolio-card text-left text-light border"
+                  <div class="card rounded portfolio-card text-left text-light border mb-4"
                     style="background-color: #166938;">
                     <img class="rounded" src="./resources/img/homepage/feature-work/Wimbledon.png" alt="Wimbledon">
                     <div class="card-img-overlay m-xl-2 m-xxl-4">
@@ -115,7 +117,7 @@ layout: homepage.html
 
                 <!-- Small -->
                 <a href="http://www.maxims.design" target="_blank" class="">
-                  <div class="card rounded portfolio-card text-left text-light border"
+                  <div class="card rounded portfolio-card text-left text-light border mb-4"
                     style="background-color: #E55353;">
                     <img class="rounded" src="./resources/img/homepage/feature-work/Design-Maxims.png"
                       alt="Design Maxims">
@@ -129,7 +131,7 @@ layout: homepage.html
 
                 <!-- Large -->
                 <a href="#" class="">
-                  <div class="card rounded portfolio-card text-left text-light border"
+                  <div class="card rounded portfolio-card text-left text-light border mb-4"
                     style="background-color: #C79C54;">
                     <img class="rounded" src="./resources/img/homepage/feature-work/Scenic.jpg" alt="Scenic">
                     <div class="card-img-overlay m-xl-2 m-xxl-4">
@@ -144,7 +146,7 @@ layout: homepage.html
 
                 <!-- Large -->
                 <a href="#" class="">
-                  <div class="card rounded portfolio-card text-left text-light border"
+                  <div class="card rounded portfolio-card text-left text-light border mb-4"
                     style="background-color: #1A274A;">
                     <img class="rounded" src="./resources/img/homepage/feature-work/Made.jpg" alt="Card image cap">
                     <div class="card-img-overlay m-xl-2 m-xxl-4">
@@ -407,7 +409,7 @@ layout: homepage.html
   <section id="experience" class="section container">
 
     <div class="container-sm-12 pb-3 d-flex justify-content-center align-items-center fade-up-job-title">
-      <div class="row d-flex justify-content-center pb-5">
+      <div class="row d-flex justify-content-center pb-sm-3 pb-md-5">
         <div class="col-sm-12 col-md-10 col-lg-8 col-xxl-10">
           <h2 class="">Work Experience</h2>
           <h4 class="">From creative agencies to in-house studios, I have a wealth of experience across all aspects of
@@ -558,7 +560,15 @@ layout: homepage.html
   <!-- Custom Javascript -->
   <script src="./resources/js/scrolling-nav.js"></script>
 
+  <script>
+    $(document).ready(function () {
 
+      $('.third-button').on('click', function () {
+
+        $('.animated-icon3').toggleClass('open');
+      });
+    });
+  </script>
 
 </body>
 
