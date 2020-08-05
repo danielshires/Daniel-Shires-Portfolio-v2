@@ -513,15 +513,15 @@ button {
 
 .btn-secondary {
     padding: 0.75rem 2rem;
-    border: solid 1px #FF0029;
-    color: #FF0029;
+    border: solid 1px #fff;
+    color: #fff;
     background-color: transparent;
     transition: 300ms;
 
     &:hover {
         padding: 0.75rem 2rem;
-        border: solid 1px #FF00E0;
-        color: #FF00E0;
+        border: solid 1px #fff;
+        color: #fff;
         background-color: transparent;
         background-position: right center;
         transform: translateY(-0.25rem);
