@@ -1,49 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="2560px" height="1627px" viewBox="0 0 2560 1627" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="3200px" height="1861px" viewBox="0 0 3200 1861" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
-    <title>Group 35</title>
+    <title>Homepage Background</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="14.128484%" x2="50%" y2="100%" id="linearGradient-1">
+        <rect id="path-1" x="0" y="0" width="3200" height="1861"></rect>
+        <linearGradient x1="100%" y1="66.2326224%" x2="-26.0158632%" y2="21.0093923%" id="linearGradient-3">
+            <stop stop-color="#FF00E0" offset="0%"></stop>
+            <stop stop-color="#FF00DD" offset="0%"></stop>
+            <stop stop-color="#FF0029" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="14.128484%" x2="50%" y2="100%" id="linearGradient-4">
             <stop stop-color="#FFFFFF" offset="0%"></stop>
             <stop stop-color="#333333" stop-opacity="0.5" offset="100%"></stop>
         </linearGradient>
-        <polygon id="path-2" points="0 0 2560 0 2560 1627 0 1626.84234"></polygon>
-        <pattern id="pattern-3" width="8" height="8" x="-8" y="-8" patternUnits="userSpaceOnUse">
-            <use xlink:href="#image-4"></use>
+        <path d="M3199.98905,2 L3200.0116,1792.75433 C3039.40727,1773.77152 2736.96921,1743.32719 2432.49689,1740.93529 L2432.49689,1740.93529 L2419.01343,1740.84784 L2415.61714,1740.83183 C2412.21472,1740.81709 2408.79394,1740.80616 2405.35515,1740.79898 L2405.35515,1740.79898 L2398.45367,1740.7896 C2176.84431,1740.64824 1882.40244,1755.70495 1604.90572,1770.91945 L1604.90572,1770.91945 L1596.23957,1771.39494 L1587.93935,1771.85095 C1314.21472,1786.89831 1058.85429,1801.79976 908.706011,1801.99859 L908.706011,1801.99859 L904.049668,1802 C902.509029,1801.99887 900.979896,1801.99612 899.462369,1801.99175 L899.462369,1801.99175 L894.944701,1801.97373 L886.112971,1801.9253 C612.560671,1800.32289 218.95675,1788.50989 -0.00034855113,1746.55452 L0.0157352849,2 L3199.98905,2 Z" id="path-5"></path>
+        <pattern id="pattern-6" width="8" height="8" x="-8" y="-6" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-7"></use>
         </pattern>
-        <image id="image-4" width="8" height="8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABGdBTUEAALGPC/xhBQAAAYJpQ0NQSUNDIFByb2ZpbGUAACiRlZE/SMNAFMa/VKQO9c9QRJwCSqcqpYIoiNBmEKFDLR1UdMi/poWahDRWRUdBx4KD6KLYxcFZ14KrTooiiJODe9FFS3zJVVMRFT847nfv3t279x0QOBZNsxjoAZZ028pMJfnZuXk++IgOcPAkyiUzkU6nXP6Yv+rlhuVeDbl3fd//VSFFLckAFya2ZdOyibeJB1Zs0+UT4rBFjyKuuawxvnZZYvzk5WQzAvEbcVdZ1uhsIEQc05WCTjxBPCnnRYV4gzgqteRrLcze46lfEIsFyRJtVeFdawSjaFglU5TVfzb5l2x11XZnwTDXrIKWt/kEOany07o8HOXjsXgMcP+FZddnPL+53gs/ZhwCY89AW8WPSbvA2RbQd+fHBg+A7k3g9FxetsrN8hyoOvOsueY+CT8x89XTKFC9BbLrQOoS2NsHIjmqswCkOyk+Th0u+oOplBuJs7tCSaD9wXHqESC4AzQqjvN65DiNKvVzD9T0d/tLb4DpM+kiAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAAAIoAMABAAAAAEAAAAIAAAAALZMWWgAAAAXSURBVBgZY2BgYPgPxUAKEzBhCg1HEQAE8AIBRiFxDgAAAABJRU5ErkJggg=="></image>
-        <linearGradient x1="100%" y1="100%" x2="-26.0158632%" y2="-39.2973635%" id="linearGradient-5">
+        <image id="image-7" width="8" height="8" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABGdBTUEAALGPC/xhBQAAAYNpQ0NQSUNDIFByb2ZpbGUAACiRlZE/SMNQEMa/VKQOtToUEaeA0qlKqSAKIrQZROhQSwcVHfKvaaEmIY1V0VHQseAguih2cXDWteCqk6II4uTgXnTREu8l1Sii4gfhfrl379277wGBI9E0S4FuYFG3rexkip+ZneODD+hAGK5EuWwmM5k04/f4Vc/X4Fi8HGRnfV//VSFFLcsAFyG2ZdOyibeI+5dtk/ExccSiSxHXGWseXzGWPH50a3JZgfiVOFyRNdobCBHHdaWoE48TT8gFUSFeJ45Jn+q1T+zdx1WfIJaKkiXaqsIzawSjZFhlU5TVfw75l2x1xWZRMMxVq6gVbD5JTqr8lC4PxfhEPBEH2Lt41Y1p12+u59zPGQfA6BPQVvVz0g5wugn03vq5gX2gawM4OZOXrEqrPQfq7nnW+uc+CD+x56urEaB2A+TWgPQFsLsHRPPUZx7IdFJ+jCZc8D9P5fxwwjsrlALa7x2nEQWC20Cz6jgvh47TrNE8d0BdfwMcaW+N515ndgAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAACKADAAQAAAABAAAACAAAAAC2TFloAAAAF0lEQVQYGWNgYGD4D8VAChMwYQoNRxEABPACAUYhcQ4AAAAASUVORK5CYII="></image>
+        <linearGradient x1="100%" y1="100%" x2="-26.0158632%" y2="-39.2973635%" id="linearGradient-8">
             <stop stop-color="#FF00E0" offset="0%"></stop>
             <stop stop-color="#FF00DD" offset="0%"></stop>
             <stop stop-color="#FF0029" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="86.4800347%" y1="100%" x2="-5.46122657%" y2="-39.2973635%" id="linearGradient-6">
+        <linearGradient x1="100%" y1="96.1797942%" x2="-26.0158632%" y2="-32.4746775%" id="linearGradient-9">
             <stop stop-color="#FF00E0" offset="0%"></stop>
             <stop stop-color="#FF00DD" offset="0%"></stop>
             <stop stop-color="#FF0029" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="85.7988166%" y1="100%" x2="-4.42555885%" y2="-39.2973635%" id="linearGradient-7">
+        <linearGradient x1="100%" y1="97.058724%" x2="-26.0158632%" y2="-34.0443997%" id="linearGradient-10">
+            <stop stop-color="#FF00E0" offset="0%"></stop>
+            <stop stop-color="#FF00DD" offset="0%"></stop>
+            <stop stop-color="#FF0029" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="-26.0158632%" y2="-39.2973635%" id="linearGradient-11">
+            <stop stop-color="#FF00E0" offset="0%"></stop>
+            <stop stop-color="#FF00DD" offset="0%"></stop>
+            <stop stop-color="#FF0029" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="100%" x2="-26.0158632%" y2="-39.2973635%" id="linearGradient-12">
             <stop stop-color="#FF00E0" offset="0%"></stop>
             <stop stop-color="#FF00DD" offset="0%"></stop>
             <stop stop-color="#FF0029" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="v1-Final-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-35">
-            <g id="Background">
-                <use fill="url(#pattern-3)" xlink:href="#path-2"></use>
-                <use fill="#FFFFFF" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
-                <use fill="url(#linearGradient-1)" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
-                <use fill="#00254F" style="mix-blend-mode: multiply;" xlink:href="#path-2"></use>
+        <g id="Homepage-Background" transform="translate(-0.016160, 0.000000)">
+            <g id="Group-36" transform="translate(0.016160, 0.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)" id="Combined-Shape">
+                    <path d="M3315,1.13686838e-13 L3315.01776,1798.95713 C3152.29516,1784.4547 2843.74876,1761.00635 2535.23244,1759.43104 C2530.71925,1759.40804 2526.17328,1759.39183 2521.59534,1759.38227 L2521.59534,1759.38227 L2514.70456,1759.37291 C2291.13405,1759.23033 1993.32111,1774.5767 1713.73463,1789.92422 C1437.3087,1805.09822 1178.6971,1820.27336 1027.26739,1820.47385 L1027.26739,1820.47385 L1022.61827,1820.47526 C1019.54177,1820.47299 1016.51123,1820.46429 1013.52742,1820.44903 C740.106797,1819.05264 340.96869,1807.46233 119.9843,1765.13032 L120,1.13686838e-13 L3315,1.13686838e-13 Z" fill="url(#linearGradient-3)" style="mix-blend-mode: multiply;"></path>
+                    <g>
+                        <use fill="#FFFFFF" xlink:href="#path-5"></use>
+                        <use fill="url(#linearGradient-4)" style="mix-blend-mode: multiply;" xlink:href="#path-5"></use>
+                        <use fill="url(#pattern-6)" xlink:href="#path-5"></use>
+                        <use fill="#00254F" style="mix-blend-mode: multiply;" xlink:href="#path-5"></use>
+                    </g>
+                </g>
             </g>
-            <path d="M707,1255.86955 C707,1322.69543 652.82588,1376.86955 586,1376.86955 C519.17412,1376.86955 465,1322.69543 465,1255.86955 C465,1189.04367 519.17412,1134.86955 586,1134.86955 C652.82588,1134.86955 707,1189.04367 707,1255.86955 Z" id="Stroke-1" stroke="url(#linearGradient-5)" opacity="0.5"></path>
-            <path d="M2250,356.869546 C2250,402.156506 2213.28696,438.869546 2168,438.869546 C2122.71304,438.869546 2086,402.156506 2086,356.869546 C2086,311.582586 2122.71304,274.869546 2168,274.869546 C2213.28696,274.869546 2250,311.582586 2250,356.869546 Z" id="Stroke-1" stroke="url(#linearGradient-5)" opacity="0.5"></path>
-            <polygon id="Stroke-3" stroke="url(#linearGradient-6)" opacity="0.5" points="2319 1035.86955 2360.00077 1061.61174 2401 1087.3548 2362.0336 1109.61261 2323.06875 1131.86955 2321.03437 1083.86955"></polygon>
-            <polygon id="Stroke-3" stroke="url(#linearGradient-6)" opacity="0.5" points="2318 703.869546 2315.96713 751.869985 2313.93271 799.869546 2274.96559 777.611939 2236 755.35521 2277 729.612378"></polygon>
-            <polygon id="Stroke-3" stroke="url(#linearGradient-7)" opacity="0.5" points="363.594695 633.869546 373.299516 763.870467 383 893.869546 272.997831 847.19901 163 800.530315 263.297347 717.199931"></polygon>
-            <rect id="Rectangle" stroke="url(#linearGradient-5)" opacity="0.600000024" transform="translate(2056.000000, 1226.869546) rotate(-330.000000) translate(-2056.000000, -1226.869546) " x="1974.5" y="1145.36955" width="163" height="163"></rect>
-            <rect id="Rectangle" stroke="url(#linearGradient-5)" opacity="0.600000024" transform="translate(432.000000, 357.000000) rotate(-30.000000) translate(-432.000000, -357.000000) " x="386.5" y="311.5" width="91" height="91"></rect>
+            <g id="Shapes" transform="translate(148.016160, 219.000000)">
+                <path d="M655.5,1219 C655.5,1299.63288 590.13288,1365 509.5,1365 C428.86712,1365 363.5,1299.63288 363.5,1219 C363.5,1138.36712 428.86712,1073 509.5,1073 C590.13288,1073 655.5,1138.36712 655.5,1219 Z" id="Stroke-1" stroke="url(#linearGradient-8)"></path>
+                <path d="M2584.72934,98.5 C2584.72934,152.89958 2540.62892,197 2486.22934,197 C2431.82976,197 2387.72934,152.89958 2387.72934,98.5 C2387.72934,44.10042 2431.82976,0 2486.22934,0 C2540.62892,0 2584.72934,44.10042 2584.72934,98.5 Z" id="Stroke-1" stroke="url(#linearGradient-8)"></path>
+                <polygon id="Stroke-3" stroke="url(#linearGradient-9)" transform="translate(2564.729338, 1207.000000) rotate(-330.000000) translate(-2564.729338, -1207.000000) " points="2564.72545 1093 2624.04054 1207 2683.35096 1321 2564.727 1320.99919 2446.10772 1320.99837 2505.41658 1206.99919"></polygon>
+                <polygon id="Stroke-3" stroke="url(#linearGradient-10)" transform="translate(187.891038, 597.795893) rotate(23.000000) translate(-187.891038, -597.795893) " points="187.88978 458.108116 259.886757 597.795078 331.878056 737.48204 187.888198 737.482856 43.90402 737.483671 115.8969 597.795893"></polygon>
+                <path d="M2606.22934,541.5 L2606.22934,738.213005 L2802.9439,738.213005 L2802.9439,541.5 L2606.22934,541.5 Z" id="Rectangle" stroke="url(#linearGradient-11)" transform="translate(2704.586619, 639.856503) rotate(-30.000000) translate(-2704.586619, -639.856503) "></path>
+                <path d="M330.230063,63.5 L330.230063,174.250829 L440.981772,174.250829 L440.981772,63.5 L330.230063,63.5 Z M440.981772,174.250829 L441.481772,174.250829 L440.981772,174.750829 L440.981772,174.250829 Z" id="Rectangle" stroke="url(#linearGradient-12)" transform="translate(385.605917, 118.875415) rotate(-30.000000) translate(-385.605917, -118.875415) "></path>
+            </g>
         </g>
     </g>
 </svg>
