@@ -10356,7 +10356,7 @@ button {
   height: 100vh;
   width: 100vw;
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   z-index: -1;
 }
 
@@ -10370,9 +10370,15 @@ button {
 }
 
 .hero {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 90vh;
+  }
 }
 
 .hero h1 {
