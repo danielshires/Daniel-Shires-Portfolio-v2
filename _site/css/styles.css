@@ -10370,15 +10370,9 @@ button {
 }
 
 .hero {
-  height: 100vh;
+  height: 85vh;
   width: 100%;
   color: white;
-}
-
-@media (min-width: 768px) {
-  .hero {
-    height: 85vh;
-  }
 }
 
 .hero h1 {
@@ -10431,7 +10425,6 @@ button {
   .hero .hero-cta {
     position: relative;
     bottom: 0;
-    width: 100%;
   }
 }
 
