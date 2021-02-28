@@ -1,0 +1,634 @@
+---
+layout: homepage.html
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head-update.html %}
+
+<body>
+  <div data-barba="wrapper">
+    {% include header.html %}
+    {% include loader.html %}
+    <div class="background-image"></div>
+
+    <main data-barba="container">
+
+      <!-- Hero Section -->
+      <section id="hero"
+        class="container-fluid justify-content-center align-items-center d-flex hero position-relative mb-5">
+        <!-- Hero Text -->
+        <div class="row d-flex justify-content-center hero-text mb-5 hero-animation">
+          <div class="col-12">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 text-center mx-auto hero-text-heading mb-2 w-100 ">
+              <div class="freelance d-flex justify-content-center">
+                <div id="animation" class="mx-1"></div>
+                <h6 class="mb-3">
+                  Currently avaliable for freelance work
+                </h6>
+              </div>
+              <h1 data-tilt data-tilt-perspective="200" data-tilt-speed="300" data-tilt-max="5" class="title"
+                style="cursor: pointer;">
+                Digital. Print. Code.<span><br />I've got you covered</span>
+              </h1>
+              <h3 class="hero-text-p">
+                Hey, my name’s Dan. I’m a Graphic Designer and Web Developer with a wealth of experience
+                helping in-house teams, agencies and clients deliver on their business goals.
+              </h3>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="col d-flex flex-column flex-lg-row justify-content-center hero-links">
+              <a href="#work" class="btn btn-primary mx-4">
+                See work
+              </a>
+              <a href="#skillset" class="mx-4 mt-4 mt-lg-0 d-flex justify-content-center align-items-center">More about
+                me
+                →</a>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Portfolio Work-->
+      <section id="work" class="section container fade-up-portfolio">
+
+        <!-- Section Heading -->
+        <div class="row d-flex justify-content-center align-items-center mb-5">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xxl-10">
+            <h2 class="">Featured Work</h2>
+            <h4 class="">I'm currently busy designing, coding and testing my new project pages. In the meantime,
+              please <a
+                href="./portfolio/D-Shires-Digital-Portfolio.pdf?utm_source=homepage&utm_medium=link&utm_campaign=portfolio_downloads"
+                target="_blank" class="call-to-action">click here</a> to download a copy of my PDF portfolio.
+            </h4>
+          </div>
+        </div>
+
+        <!-- New Portfolio Cards -->
+
+        <div class="row">
+          <!-- Slide -->
+          <div class="col mb-5">
+            <div class="card-columns">
+              <!--MASO Fitness -->
+              <div class="swiper-container mb-4">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <div class="card portfolio-card rounded text-left text-light" data-swiper-parallax="-23%">
+                      <img class="rounded" src="./resources/img/homepage/feature-work/Maso-Fitness.jpg"
+                        alt="Maso Fitness">
+                      <div class="card-img-overlay m-xl-3 m-xxl-4">
+                        <h6 class="card-text">Maso Fitness</h5>
+                          <h4 class="card-title text-light">Getting people fit in Sydney's Inner West</h4>
+                          <span class="badge badge-pill">Branding & Web Design</span>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="swiper-slide">
+                    <div class="card rounded text-left text-light">
+                      <img class="rounded" src="../resources/img/homepage/slides/maso-fitness/maso-fitness-slide-2.jpg"
+                        alt="Maso Fitness">
+                    </div>
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="swiper-slide">
+                    <div class="card rounded text-left text-light">
+                      <img class="rounded" src="../resources/img/homepage/slides/maso-fitness/maso-fitness-slide-3.jpg"
+                        alt="Maso Fitness">
+                    </div>
+                  </div>
+                  <!-- Slide 4 -->
+                  <div class="swiper-slide">
+                    <div class="card rounded text-left text-light">
+                      <img class="rounded" src="../resources/img/homepage/slides/maso-fitness/maso-fitness-slide-6.jpg"
+                        alt="Maso Fitness">
+                    </div>
+                  </div>
+
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div> -->
+                <!-- <div class="swiper-button-next"></div> -->
+              </div>
+
+              <!-- Design Maxims -->
+              <a href="http://www.maxims.design" target="_blank" class="">
+                <div class="card rounded portfolio-card text-left text-light border mb-4"
+                  style="background-color: #0c82ea;">
+                  <img class="rounded" src="./resources/img/homepage/feature-work/Design-Maxims.jpg"
+                    alt="Design Maxims">
+                  <div class="card-img-overlay m-xl-3 m-xxl-4">
+                    <h6 class="card-text op-5">Design Maxims</h5>
+                      <h4 class="card-title">Inspiration quotes from
+                        design leaders & thinkers</h4>
+                  </div>
+                </div>
+              </a>
+
+              <!-- Design Maxims -->
+
+              <a href="http://www.maxims.design" target="_blank" class="">
+                <div class="card rounded portfolio-card text-left text-light border mb-5"
+                  style="background-color: #0c82ea;">
+                  <img class="rounded" src="./resources/img/homepage/feature-work/Design-Maxims.jpg"
+                    alt="Design Maxims">
+                  <div class="card-img-overlay m-xl-3 m-xxl-4">
+                    <h6 class="card-text op-5">Design Maxims</h5>
+                      <h4 class="card-title">Inspiration quotes from
+                        design leaders & thinkers</h4>
+                  </div>
+                </div>
+              </a>
+
+              <!-- Slider Gallahger-->
+              <div class="swiper-container mb-4">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <div class="card portfolio-card rounded text-left text-light" data-swiper-parallax="-23%">
+                      <img class="rounded" src="./resources/img/homepage/feature-work/Maso-Fitness.jpg"
+                        alt="Maso Fitness">
+                      <div class="card-img-overlay m-xl-3 m-xxl-4">
+                        <h6 class="card-text">Maso Fitness</h5>
+                          <h4 class="card-title text-light">Getting people fit in Sydney's Inner West</h4>
+                          <span class="badge badge-pill">Brand & Web Design</span>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- Slide 2 -->
+                  <div class="swiper-slide">
+                    <div class="card rounded text-left text-light">
+                      <img class="rounded" src="../resources/img/homepage/slides/maso-fitness/maso-fitness-slide-2.jpg"
+                        alt="Maso Fitness">
+                    </div>
+                  </div>
+                  <!-- Slide 3 -->
+                  <div class="swiper-slide">
+                    <div class="card rounded text-left text-light">
+                      <img class="rounded" src="../resources/img/homepage/slides/maso-fitness/maso-fitness-slide-3.jpg"
+                        alt="Maso Fitness">
+                    </div>
+                  </div>
+                  <!-- Slide 4 -->
+                  <div class="swiper-slide">
+                    <div class="card rounded text-left text-light">
+                      <img class="rounded" src="../resources/img/homepage/slides/maso-fitness/maso-fitness-slide-6.jpg"
+                        alt="Maso Fitness">
+                    </div>
+                  </div>
+
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div> -->
+                <!-- <div class="swiper-button-next"></div> -->
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+
+      <!-- Call to Action -->
+      <div class="container">
+        <div class="row row d-flex justify-content-center mt-4 pb-1 fade-up-cta">
+          <div class="col-sm-12 col-md-10 col-lg-8 col-xxl-10">
+            <h3>Want to know more? <span><a class="call-to-action" href="mailto:hello@danielshires.com">Get in
+                  touch</a></span></h3>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Section Divider -->
+      <section class="container-fluid border-bottom ">
+        <div class="row">
+        </div>
+      </section>
+
+      <!-- Testimonial Gemma -->
+      <section id="my-process-section"
+        class="section container-fluid d-flex justify-content-center align-items-center background-image-testimonial h-50">
+
+        <!-- Section Heading -->
+        <div class="container">
+          <div class="row d-flex">
+            <!-- Section Heading -->
+            <div class="row align-items-center ">
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="testimonial-container fade-up-tesimonial">
+                  <div class="testimonial-img"></div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-8 col-lg-8 testimonial-text fade-up-tesimonial">
+                <h4 class="mt-5 text-white ">“Daniel is a creative and talented graphic designer and a true
+                  collaborative team member… I
+                  strongly recommend Dan as an experienced graphic designer.”</h4>
+                <h6 class="">Gemma Thomas, Marketing Manager at Scenic</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Skillset Section -->
+      <div class="container-fluid bg-light">
+
+        <!-- My Process -->
+        <section id="skillset" class="section container d-flex justify-content-center align-items-center">
+          <!-- Section Heading -->
+
+          <div class="container-sm-12 fade-up">
+            <div class="row d-flex justify-content-center pb-5">
+              <!-- Section Heading -->
+              <div class="col-sm-12 col-md-10 col-lg-8 col-xxl-10 ">
+                <h2 class="">My Process</h2>
+                <h4 class="op-5">From the first sketch and brainstorming session, to the final delivered
+                  artwork, I’m
+                  able
+                  to manage all stages of the creative and production process.</h4>
+              </div>
+              <!-- Cards -->
+
+            </div>
+
+            <div class="row cards fade-up-cards">
+              <div class="col-sm-12 col-md-4 mb-4">
+                <div class="card card-shadow text-left text-dark shadow-sm pt-3 rounded">
+                  <div class="card-image p-2">
+                    <img data-tilt data-tilt-perspective="300" data-tilt-speed="400" data-tilt-max="25"
+                      class="card-img-top" style="cursor: pointer;"
+                      src="./resources/img/homepage/PNG/Process_Concepts@4x.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Ideation</h5>
+                    <p class="card-text">I’m able to brainstorm, generate ideas and develop concepts for the creation
+                      of
+                      marketing design campaigns that deliver results.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-4 mb-4">
+                <div class="card card-shadow text-left text-dark shadow-sm pt-3 rounded">
+                  <div class="card-image p-2">
+                    <img data-tilt data-tilt-perspective="300" data-tilt-speed="400" data-tilt-max="25"
+                      class="card-img-top" style="cursor: pointer;"
+                      src="./resources/img/homepage/PNG/Process_Design-Mac@4x.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Design Process</h5>
+                    <p class="card-text">I can produce a range of design assets to suit the brief – from digital
+                      display banners and landing pages, to brochures and flyers.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-4 mb-4">
+                <div class="card card-shadow text-left text-dark shadow-sm pt-3 rounded">
+                  <div class="card-image p-2">
+                    <img data-tilt data-tilt-perspective="300" data-tilt-speed="400" data-tilt-max="25"
+                      class="card-img-top" style="cursor: pointer;"
+                      src="./resources/img/homepage/PNG/Process_Delivery@4x.png" alt="Card image cap">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title ">Project Delivery</h5>
+                    <p class="card-text">I’m able to delivery projects from conception through to the final shipped
+                      product, and produce pixel perfect designs, everytime.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </section>
+
+        <!-- Section Divider -->
+        <section class="container-fluid border-bottom ">
+          <div class="row">
+          </div>
+        </section>
+
+        <!-- Creative Services -->
+        <section id="creative-services" class="section container d-flex justify-content-center align-items-center">
+
+          <!-- Section Heading -->
+          <div class="container-sm-12 pb-3 fade-up-services">
+            <div class="row d-flex justify-content-center pb-5">
+              <div class="col-sm-12 col-md-10 col-lg-8 col-xxl-10">
+                <h2 class="">Creative Services</h2>
+                <h4 class="">
+                  Need a website, brochure and HTML5 display banners? You got it. I have a wide-range of industry
+                  experience
+                  across all types of design and production</h4>
+              </div>
+            </div>
+            <!-- Cards -->
+
+            <div class="row row d-flex justify-content-center pb-5 fade-up-cards">
+              <div class="col-sm-12 col-md-4 my-4">
+                <div class="card text-center text-dark pt-4 border d-block align-items-center border-0 bg-light">
+                  <img data-tilt data-tilt-perspective="300" data-tilt-speed="400" data-tilt-max="50"
+                    class="card-img-top card-img-top-center w-25" style="cursor: pointer;"
+                    src="./resources/img/homepage/PNG/Services_Digital@4x.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital</h5>
+                    <p class="card-text">HTML5 Banners</p>
+                    <p class="card-text">Digital Display Advertising</p>
+                    <p class="card-text">Social Media Banners & Posts</p>
+                    <p class="card-text">EDM's</p>
+                    <p class="card-text">Motion Graphics</p>
+                    <p class="card-text">Icons</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 my-4">
+                <div class="card text-center text-dark pt-4 border d-block align-items-center border-0 bg-light">
+                  <img data-tilt data-tilt-perspective="300" data-tilt-speed="400" data-tilt-max="50"
+                    class="card-img-top card-img-top-center w-25" style="cursor: pointer;" class="card-img-top w-25"
+                    src="./resources/img/homepage/PNG/Services_Print@4x.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Print</h5>
+                    <p class="card-text">Brochures & Catalouges </p>
+                    <p class="card-text">Single & Multi-Page Flyers</p>
+                    <p class="card-text">OOH Advertising</p>
+                    <p class="card-text">Booklets</p>
+                    <p class="card-text">Direct Mail</p>
+                    <p class="card-text">Business Cards</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4 my-4">
+                <div class="card text-center text-dark pt-4 border d-block align-items-center border-0 bg-light">
+                  <img data-tilt data-tilt-perspective="300" data-tilt-speed="400" data-tilt-max="50"
+                    class="card-img-top card-img-top-center w-25" style="cursor: pointer;" class="card-img-top w-25"
+                    src="./resources/img/homepage/PNG/Services_Code@4x.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Code</h5>
+                    <p class="card-text">Landing Pages</p>
+                    <p class="card-text">Multi-page Websites</p>
+                    <p class="card-text">Responsive Mobile Sites</p>
+                    <p class="card-text">HTML5 Banners </p>
+                    <p class="card-text">Webflow/Squarepace/Wix</p>
+                    <p class="card-text">Headless CMS with Jekyll</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Section Divider -->
+        <section class="container-fluid border-bottom ">
+          <div class="row ">
+          </div>
+        </section>
+
+      </div>
+
+      <!-- Section Divider -->
+
+      <section class="container-fluid border-bottom">
+        <div class="row ">
+        </div>
+      </section>
+
+
+      <!-- Testimonial Made -->
+      <section id="my-process-section"
+        class="section container-fluid d-flex justify-content-center align-items-center background-image-testimonial h-50">
+
+        <!-- Section Heading -->
+        <div class="container fade-up-testimonial-made">
+          <div class="row d-flex">
+            <!-- Section Heading -->
+            <div class="row align-items-center">
+              <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="testimonial-container ">
+                  <div class="testimonial-img-jack"></div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-8 col-lg-8 testimonial-text">
+                <h4 class="mt-5 text-white ">“Daniel has an excellent range of design and artworking skills as well as a
+                  passion for typography in all forms. He’s a fantastic team player and was brilliant at nurturing more
+                  junior members of the team.”</h4>
+                <h6 class="">Jack Newman, Design Manager at Made</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Work History -->
+      <section id="experience" class="section container">
+
+        <div class="container-sm-12 pb-3 d-flex justify-content-center align-items-center fade-up-job-title">
+          <div class="row d-flex justify-content-center pb-sm-3 pb-md-5">
+            <div class="col-sm-12 col-md-10 col-lg-8 col-xxl-10">
+              <h2 class="">Work Experience</h2>
+              <h4 class="">A short history of my work experience, from interior design and events to fashion and luxury
+                travel.</h4>
+              <h6 class="py-4">Let's start a conversation <a class="call-to-action"
+                  href="https://www.linkedin.com/in/shiresdaniel/" target="_blank">Connect on LinkedIn</a></h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="container pb-3 text-left d-flex flex-column align-items-center fade-up-job-list">
+
+          <!-- Scenic -->
+          <div class="row w-100 justify-content-center">
+            <div class="row w-100 d-flex border-bottom py-4">
+              <div class="col-sm-12 col-md-3 col-lg-2">
+                <h6 class="job-year">2019 +</h6>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-10">
+                <h4 class="job-title">Digital Designer <span>at Scenic Group</span></h4>
+                <p class="job-description">Digitally focused role creating a range of landing pages, emails, digital
+                  display
+                  banners and social media tiles for three separate brands – Scenic River Cruises, Scenic Eclipse and
+                  Evergreen & Emerald Waterways.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Freelance -->
+          <div class="row w-100 justify-content-center">
+            <div class="row w-100 d-flex border-bottom py-4">
+              <div class="col-sm-12 col-md-3 col-lg-2">
+                <h6 class="job-year">2019 +</h6>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-10">
+                <h4 class="job-title">Freelance Graphic Design <span>at Various</span></h4>
+                <p class="job-description">Projects undertaken with a range of personal, corporate and
+                  retail clients including BT/Westpac, Gallagher, MASO Fitness, The Kings School, Met Cash, Ruralco and
+                  Finite IT Solutions.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Made -->
+          <div class="row w-100 justify-content-center">
+            <div class="row w-100 d-flex border-bottom py-4">
+              <div class="col-sm-12 col-md-3 col-lg-2">
+                <h6 class="job-year">2017 – 18</h6>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-10">
+                <h4 class="job-title">Creative Artworker <span>at Made</span></h4>
+                <p class="job-description">Delivered design and finished artwork across a range of digital and print
+                  materials for a luxury interior design e-com store.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Echo House -->
+          <div class="row w-100 justify-content-center">
+            <div class="row w-100 d-flex border-bottom py-4">
+              <div class="col-sm-12 col-md-3 col-lg-2">
+                <h6 class="job-year">2017</h6>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-10">
+                <h4 class="job-title">Freelance Creative Artworker <span>at Echo House</span></h4>
+                <p class="job-description">Design, artwork and production of print
+                  assets for clients including Estee Lauder, Urban Decay and the
+                  All-England Lawn Tennis Club, Wimbledon..</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ASOS -->
+          <div class="row w-100 justify-content-center">
+            <div class="row w-100 d-flex border-bottom py-4">
+              <div class="col-sm-12 col-md-3 col-lg-2">
+                <h6 class="job-year">2013 – 16</h6>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-10">
+                <h4 class="job-title">Content Manager <span>at ASOS</span></h4>
+                <p class="job-description"> Production role managing the publishing of all womenswear and unisex
+                  creative
+                  content across desktop, mobile and app homepages using Sitecore CMS.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </section>
+
+
+
+    </main>
+
+    {% include footer.html %}
+  </div>
+  <!--[if IE]>
+          <p class="browserupgrade">
+            You are using an <strong>outdated</strong> browser. Please
+            <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+            your experience and security.
+          </p>
+        <![endif]-->
+
+  <!-- Optional JavaScript -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+
+  <!-- Lottie -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.1/lottie.min.js" type="text/javascript"></script>
+  <script src="./resources/js/index.js"></script>
+  <script src="./resources/js/bg-circle.js"></script>
+
+  <!-- Load Tilt.js library -->
+  <script src="../resources/js/tilt.jquery.min.js"></script>
+
+  <!-- Slider -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- GSAP and Barba -->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+  <script src="./resources/js/animations.js"></script>
+
+  <!-- Menu Nav -->
+  <script>
+    $(document).ready(function () {
+
+      $('.third-button').on('click', function () {
+
+        $('.animated-icon3').toggleClass('open');
+      });
+    });
+  </script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      grabCursor: true,
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        type: 'bullets',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    mySwiper.on('click', function (swiper, event) {
+      swiper.slideNext();
+    });
+  </script>
+
+</body>
+
+</html>
